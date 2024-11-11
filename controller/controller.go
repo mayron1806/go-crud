@@ -27,6 +27,6 @@
 // [Go generics tutorial]: https://go.dev/doc/tutorial/generics
 package controller
 
-import "github.com/cdfmlr/crud/log"
+import "github.com/mayron1806/go-crud/log"
 
 var logger = log.ZoneLogger("crud/controller")

@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/cdfmlr/crud/orm"
+	"github.com/mayron1806/go-crud/orm"
 )
 
 // Update all fields of an existing model in database.

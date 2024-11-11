@@ -1,8 +1,8 @@
 package controller
 
 import (
-	"github.com/cdfmlr/crud/orm"
-	"github.com/cdfmlr/crud/service"
+	"github.com/mayron1806/go-crud/orm"
+	"github.com/mayron1806/go-crud/service"
 	"github.com/gin-gonic/gin"
 )
 

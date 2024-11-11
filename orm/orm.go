@@ -1,7 +1,7 @@
 package orm
 
 import (
-	"github.com/cdfmlr/crud/log"
+	"github.com/mayron1806/go-crud/log"
 	"gorm.io/gorm"
 
 	"gorm.io/driver/mysql"

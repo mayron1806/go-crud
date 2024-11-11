@@ -4,7 +4,7 @@
 
 English | [机翻中文](README-zh_CN.md)
 
-[![Go Reference Badge](https://pkg.go.dev/badge/github.com/cdfmlr/crud.svg)](https://pkg.go.dev/github.com/cdfmlr/crud) [![Go Report Badge](https://goreportcard.com/badge/github.com/cdfmlr/crud)](https://goreportcard.com/report/github.com/cdfmlr/crud)
+[![Go Reference Badge](https://pkg.go.dev/badge/github.com/mayron1806/go-crud.svg)](https://pkg.go.dev/github.com/mayron1806/go-crud) [![Go Report Badge](https://goreportcard.com/badge/github.com/mayron1806/go-crud)](https://goreportcard.com/report/github.com/mayron1806/go-crud)
 
 Crud is a golang package that helps writing CRUD servers.
 With this package, all you need is models,
@@ -13,7 +13,7 @@ while all the rest is done for you automatically.
 > crud = [GORM](https://github.com/go-gorm/gorm) +
 > [Gin](https://github.com/gin-gonic/gin) +
 > [Logrus](https://github.com/sirupsen/logrus) +
-> [Viper](https://github.com/spf13/viper) + 
+> [Viper](https://github.com/spf13/viper) +
 > automatic CRUD service
 
 ## Get started
@@ -21,7 +21,7 @@ while all the rest is done for you automatically.
 0. get the package:
 
 ```sh
-go get -u github.com/cdfmlr/crud
+go get -u github.com/mayron1806/go-crud
 ```
 
 1. all you need are models, and register them in orm & router:
@@ -30,8 +30,8 @@ go get -u github.com/cdfmlr/crud
 package main
 
 import (
-	"github.com/cdfmlr/crud/orm"
-	"github.com/cdfmlr/crud/router"
+	"github.com/mayron1806/go-crud/orm"
+	"github.com/mayron1806/go-crud/router"
 )
 
 type Todo struct {
@@ -180,7 +180,7 @@ to build your own CRUD API services:
 
 **Documents**:
 
-- [go doc](https://pkg.go.dev/github.com/cdfmlr/crud)
+- [go doc](https://pkg.go.dev/github.com/mayron1806/go-crud)
 
 **Examples**:
 
@@ -195,7 +195,7 @@ The implementation of crud is inspired by the layered MVC architecture:
 ![curd architecture](img/crud.svg)
 
 | Layer      | Description                                     |
-|------------|-------------------------------------------------|
+| ---------- | ----------------------------------------------- |
 | router     | define REST APIs                                |
 | controller | handles the HTTP requests (GET/POST/PUT/DELETE) |
 | service    | business logic (Create/Read/Update/Delete)      |

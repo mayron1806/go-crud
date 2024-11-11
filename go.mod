@@ -1,4 +1,4 @@
-module github.com/cdfmlr/crud
+module github.com/mayron1806/go-crud
 
 go 1.22.0
 
